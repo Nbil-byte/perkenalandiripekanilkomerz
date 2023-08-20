@@ -1,0 +1,267 @@
+body {
+  background-image: url('resources/snst.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #f5f0e1;
+  color: #333;
+}
+
+@font-face {
+  font-family: "Genshin Impact DRIP FONT";
+  src: url('font.ttf');
+}
+
+@font-face {
+  font-family: "Alhambra";
+  src: url("ALHAMBRA.TTF");
+}
+
+@font-face {
+  font-family: "Rumble";
+  src: url("Rumble\ Brave.otf");
+}
+
+@font-face {
+  font-family: "Stradas";
+  src: url(Stradas\ Free.otf);
+}
+
+.jumbotron {
+  background-color: rgba(232, 214, 175, 0.8);
+  border-radius: 15px;
+}
+
+.navbar{
+  background-image: url("resources/texture4.jpg");
+  background-size: contain;
+  color: #333;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  font-family: "Rumble",sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #006e09;
+}
+
+.navbar-visible {
+  transform: translateY(0);
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;}
+
+.circular-content {
+  background-color: rgba(232, 214, 175, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.collapse:not(.show) {
+  transition: height 0.05s ease-out;}
+
+.section {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index:1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.after{
+  position: relative;
+  background-size: contain;
+  min-height: 30px;
+  background-image: url("resources/background1.jpg");
+  opacity: 1;
+}
+
+.zero{
+  background-image: url("resources/egypt_page-0001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.dua{
+  background-image: url("resources/egypt_page-0002.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.satu{
+  background-image: url("resources/egypt_page-0003.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+.tiga{
+  background-image: url("resources/f_page-0001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+  .tombolhari{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 175px;
+    background-position: center;
+    height: 345px;
+    width: 345px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #CAA049;
+    opacity: 10%;
+  }
+
+  .tombolhari:hover{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 175px;
+    background-position: center;
+    height: 345px;
+    width: 345px;
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #CAA049;
+    opacity: 45%;
+  }
+
+  .nama {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    position:relative;
+    text-shadow: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    background-image: url("resources/bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+
+  .nama h2{
+    font-family: Rumble ;
+    z-index: 3;
+  }
+
+  .nama h1{
+    font-family: Stradas;
+    z-index: 3;
+  }
+
+  .content_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    text-align: center;
+  }
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.icon{
+  text-decoration: none;
+  color:#333;
+  margin: 0 20px;
+  font-size:30px;
+}
+
+.small{
+  min-height: 100px;
+  background-image: url("resources/tau\ lah.png");
+}
+
+.new-section {
+  padding: 50px 0;
+}
+
+.image-container {
+  text-align: center;
+  margin: 15px;
+}
+
+.contain-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.image-container p {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.content_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  background-size: contain;
+  background-position: center center;
+  z-index: 2;
+}
+
+.icon:hover{
+  color: #fff;
+}
+
+.maxi{
+  max-width: 500px;
+  max-height: 260px;
+}
+
+.maxin{
+  max-width: 500px;
+  max-height: 260px;
+  margin-left: 60px;
+}
+
+.carousel-item {
+  border: 30px solid transparent;
+  border-image-source: url("resources/texture4.jpg");
+  border-image-slice: 20;
+  border-image-repeat: round;
+  border-radius: 20px;
+}
+
+.teks{
+  color: #333;
+}
+
+.section h4{
+  font-family: "Cormorant Upright", sans-serif;
+}
+
+.section h1{
+  font-family: "Alhambra",sans-serif;
+}
